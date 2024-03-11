@@ -1,0 +1,24 @@
+# values.yaml
+service:
+  port: 8080
+
+postgres:
+  persistence:
+    accessModes: ReadWriteOnce
+    size: 5Gi # Adjust the size as per your requirements
+    storageClassName: standard
+
+elasticsearch:    
+  persistence:
+    accessModes: ReadWriteOnce
+    size: 5Gi # Adjust the size as per your requirements
+    storageClassName: standard
+
+persistentVolume:
+  enabled: true
+  storageClassName: "standard"
+  accessModes: ["ReadWriteOnce"]
+  size: "5Gi"
+  
+kibana:
+  enabled: true  
