@@ -9,6 +9,6 @@ entries:
     name: tenjin-enterprise
     type: application
     urls:
-    - https://github.com/PonnarAnnavi2078/Tenjin-enterprice.git/tenjin-enterprise-0.1.0.tgz
+    - https://github.com/PonnarAnnavi2078/Tenjin-enterprice/blob/main/tenjin-enterprise-0.1.0.tgz
     version: 0.1.0
 generated: "2024-03-12T12:57:22.2612925+05:30"
